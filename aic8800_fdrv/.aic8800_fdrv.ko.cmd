@@ -1,0 +1,1 @@
+savedcmd_aic8800_fdrv.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1 --force-group-allocation  -T /home/host/kernel-trees/host-build/mainline-7.3/scripts/module.lds -o aic8800_fdrv.ko aic8800_fdrv.o aic8800_fdrv.mod.o .module-common.o

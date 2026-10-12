@@ -1,0 +1,1 @@
+savedcmd_Module.symvers :=  /home/host/kernel-trees/host-build/mainline-7.3/scripts/mod/modpost -M          -o Module.symvers -n -T modules.order -i /home/host/kernel-trees/host-build/mainline-7.3/Module.symvers -e 
